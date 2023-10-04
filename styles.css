@@ -52,11 +52,11 @@ p {
 }
 
 .screen {
-    border-radius: 30%;
+    border-radius: 10%;
 }
 .project {
     text-align: center;
-    border-radius: 20%;
+    border-radius: 15%;
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 90px;
