@@ -1,0 +1,34 @@
+nav {
+    font-style: Georgia;
+    font-weight: 5;
+    font-size: 300;
+}
+
+
+p.title {
+    font-style: Arial;
+    font-weight: 5;
+    font-size: 20;
+}
+
+p,
+h2,
+h3 {
+    color:darkslateblue;
+}
+
+
+a:link {
+    color:blue;
+    text-decoration: underline;
+}
+a:visited {
+    color:palevioletred
+}
+a.hover {
+    color:cornflowerblue;
+    text-decoration: underline;
+}
+input:focus {
+    border: 2px solid #bd6c6c;
+}
