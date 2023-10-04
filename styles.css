@@ -51,18 +51,8 @@ p {
     color:#bd6c6c;
 }
 
-.screen {
-    border-radius: 10%;
-}
 .project {
     text-align: center;
-    border-radius: 15%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 90px;
-    background-color:#e0cad7;
-    margin-right: 500px;
-    margin-left: 500px;
 }
 
 .project-details {
