@@ -1,17 +1,29 @@
-nav {
-    font-style: Georgia;
-    font-weight: 5;
-    font-size: 300;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color:#bd6c6c
 }
 
 
-p.title {
-    font-style: Arial;
-    font-weight: 5;
-    font-size: 20;
+.page-title {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
 }
 
-p,
+p {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+footer {
+    font-size: large;
+    text-align: right;
+}
+/** p,
 h2,
 h3 {
     color:darkslateblue;
@@ -25,6 +37,8 @@ a:link {
 a:visited {
     color:palevioletred
 }
+**/
+
 a.hover {
     color:cornflowerblue;
     text-decoration: underline;
