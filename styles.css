@@ -5,6 +5,18 @@ body {
     color:#bd6c6c
 }
 
+nav {
+    .navlist {
+
+    }
+    text-align: center;
+}
+
+.Leila {
+    font-size: 45px;
+    text-align: center;
+}
+
 
 .page-title {
     font-family: Georgia, serif;
