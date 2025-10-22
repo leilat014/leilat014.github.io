@@ -39,24 +39,6 @@ nav.navbar {
   color: #7a4383;
 }
 
-.about-message-large {
-  font-size: 30px;
-}
-
-.about-message {
-  font-size: 28px;
-}
-
-.home-picture {
-  width: 300px;
-  height: 30-px;
-  object-fit: cover;
-  border-radius: 20px;
-  border: 4px solid #9b5fa8;
-  display: block;
-  margin: 0 auto;
-}
-
 .nav-list {
   display: flex;
   list-style: none;
@@ -83,7 +65,31 @@ nav.navbar {
 }
 
 .nav-button:hover {
-  background-image: url("headshot.JPEG"); /* for newspaper button */
+  background-image: url("images/newspaper.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.reporting-btn:hover {
+  background-image: url("images/newspaper.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.coding-btn:hover {
+  background-image: url("images/coding.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.about-btn:hover {
+  background-image: url("images/city.jpeg");
   background-size: cover;
   background-position: center;
   color: white;
@@ -100,6 +106,37 @@ main {
   margin: 0 auto;
   padding: 0 20px;
   min-height: calc(100vh - 200px);
+}
+
+.intro-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.about-text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.about-message-large {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.about-message {
+  font-size: 28px;
+  line-height: 1.4;
+}
+
+.home-picture {
+  width: 350px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 4px solid #9b5fa8;
+  flex-shrink: 0;
 }
 
 .section-title {
