@@ -11,18 +11,55 @@
       <h1 class="logo">
         <a href="index.html">Leila Touati</a>
       </h1>
-      <ul class="nav-list">
-        <a href="portfolio.html" class="nav-button">Reporting Work</a>
-        <a href="code.html" class="nav-button">Coding Projects</a>
-        <a href="about.html" class="nav-button">About</a>
-      </ul>
     </nav>
+
+    <ul class="nav-list">
+      <li>
+        <a href="portfolio.html" class="nav-button reporting-btn"
+          >Reporting Work</a
+        >
+      </li>
+      <li>
+        <a href="code.html" class="nav-button coding-btn">Coding Projects</a>
+      </li>
+      <li><a href="about.html" class="nav-button about-btn">About</a></li>
+    </ul>
 
     <main>
       <div class="reporting">
-        <h2 class="section-title">Featured Reporting Work</h2>
+        <h2 class="section-title">Coding projects</h2>
+      </div>
+
+      <div class="dropdown-section">
+        <button class="dropdown-btn">Current projects</button>
+        <div class="dropdown-content">
+          <p class="dropdown-description">
+            As the Digital Manager of Mustang Media Group, I manage two
+            websites: mustangnews.net and kcpr.org. Latest developments include
+            our video content autoplaying as you scroll on our Home page, a live weather embed
+            and a digital coupon book for our business team to pitch to clients.
+            I'm also building out an interactive quiz to bring readers from our social media to our news website, and a personal travel website with interactive features.
+          </p>
+          <ul class="article-list">
+            <li><a href="#">Multimedia Project 1</a></li>
+            <li><a href="#">Multimedia Project 2</a></li>
+            <li><a href="#">Multimedia Project 3</a></li>
+          </ul>
+        </div>
       </div>
     </main>
+
+    <script>
+      const dropdownBtns = document.querySelectorAll(".dropdown-btn");
+
+      dropdownBtns.forEach((btn) => {
+        btn.addEventListener("click", function () {
+          this.classList.toggle("active");
+          const content = this.nextElementSibling;
+          content.classList.toggle("active");
+        });
+      });
+    </script>
 
     <footer class="footer">© 2025 Leila Touati | All Rights Reserved</footer>
   </body>
