@@ -1,48 +1,239 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leila Touati - Portfolio</title>
+    <title>Leila Touati</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav class="navbar">
-      <h1 class="logo">
-        <a href="index.html">Leila Touati</a>
-      </h1>
-    </nav>
-
-    <ul class="nav-list">
-      <li>
-        <a href="portfolio.html" class="nav-button reporting-btn"
-          >Reporting</a
-        >
-      </li>
-      <li>
-        <a href="code.html" class="nav-button coding-btn">Coding</a>
-      </li>
-      <li><a href="about.html" class="nav-button about-btn">About</a></li>
-    </ul>
-
-    <main>
-      <div class="intro-section">
+    <h1 class="logo">Leila Touati</h1>
+    <main id="top">
+      <!-- INTRO -->
+      <section class="intro-section">
         <div class="about-text">
           <div class="about-message-large">Hello, I'm so glad you're here!</div>
           <div class="about-message">
-            My name's Leila and I'm a journalism senior at Cal Poly - San Luis Obispo. To
-            learn more about me or check out my featured work, check out the
-            links above!
+            I'm Leila, a reporter and developer based in San Luis Obispo,
+            California. 
+            
+            I'm looking for opportunities to combine my skills in
+            journalism and coding to create innovative digital experiences.
           </div>
         </div>
-        <img
-          src="images/headshot.JPEG"
-          alt="Leila Touati"
-          class="home-picture"
-        />
-      </div>
+      </section>
+
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="#work" class="nav-button">Work</a></li>
+          <li><a href="#about" class="nav-button">About</a></li>
+          <li><a href="#contact" class="nav-button">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- WORK -->
+      <section id="work" class="page-section">
+        <h2 class="section-heading">Work</h2>
+        <p class="section-lead">
+          As an award-winning journalist and developer, I've managed and
+          redesigned news websites and written for five professional news
+          outlets.
+          
+          My work has been recognized by the College Media Association,
+          Associated Collegiate Press and the Reynolds Journalism Institute.
+        </p>
+
+        <!-- EXPERIENCE: one <li> per position. Copy/paste to add more. -->
+        <h3 class="subsection-heading">Experience</h3>
+        <ul class="experience-list">
+          <li>
+            <span class="role">Digital Manager</span>
+            <span class="org">
+              <a href="https://mustangnews.net" target="_blank" rel="noopener"
+                >Mustang News</a
+              >
+            </span>
+          </li>
+          <li>
+            <span class="role">Business &amp; Change Reporter</span>
+            <span class="org">
+              <a
+                href="https://www.sanluisobispo.com"
+                target="_blank"
+                rel="noopener"
+                >The Tribune, San Luis Obispo (McClatchy)</a
+              >
+            </span>
+          </li>
+          <!-- <li>
+            <span class="role">Breaking News Reporter</span>
+            <span class="org">The Tribune, San Luis Obispo (McClatchy)</span>
+          </li> -->
+          <li>
+            <span class="role">News Reporter, Assistant News Editor</span>
+            <span class="org">Mustang News</span>
+          </li>
+          <li>
+            <span class="role">Editorial Intern</span>
+            <span class="org">Bay Area News Group</span>
+          </li>
+          <li>
+            <span class="role">Web Developer, Lead Mentor</span>
+            <span class="org">hack4impact, Girls Who Code</span>
+          </li>
+          <li>
+            <span class="role">Freelance Reporter</span>
+            <span class="org">San Jose Mercury News, Berkeleyside</span>
+          </li>
+        </ul>
+
+        <!-- SELECTED WORK: linked title + one-line description -->
+        <h3 class="subsection-heading">Selected Work</h3>
+        <ul class="work-list">
+          <li>
+            <a
+              href="https://leilat014.github.io/leilatouati/"
+              target="_blank"
+              rel="noopener"
+              >Testimony-based project on students of colors' experiences at a
+              predominatelty white institution</a
+            >
+            <p>Worked on digital production to make this project come to life on
+              web, collaborating with designers and reporters
+            </p>
+          </li>
+          <li>
+            <a
+              href="https://mustangnews.net/sunday-refresh-quiz-april-6-2025/"
+              target="_blank"
+              rel="noopener"
+              >Gamifying news content to increase a website's pageviews and
+              recirculation rate</a
+            >
+            <p>Finalist for the Reynolds Journalism Institute Student Innovation
+              Competition
+            </p>
+          </li>
+          <li>
+            <a
+              href="https://mustangnews.net/live-president-armstrong-testifies-to-congress/"
+              target="_blank"
+              rel="noopener"
+              >Live coverage of the Cal Poly president's congressional
+              testimony</a
+            >
+            <p>First Place Pinnacle Award from the College Media Association</p>
+          </li>
+          <!-- <li>
+            <a
+              href="https://www.sanluisobispo.com/news/local/article311902722.html" target="_blank" rel="noopener"
+              >Beloved restaurant wins grant to help relight Chinatown
+              district</a>
+            <p>Business reporting on a local grant and a neighborhood's revival
+            </p>
+          </li> -->
+          <!-- <li>
+            <a
+              href="https://mustangnews.net/we-dont-have-a-lot-of-fear-to-go-around-surfing-and-skating-club-grrrls-on-boards-rides-on-the-edge-of-femininity/" target="_blank" rel="noopener"
+              >An all-women's surf skate club is dominating the Central Coast
+              surf scene</a>
+            <p>Feature story on a student club and its community</p>
+          </li> -->
+        </ul>
+
+        <!-- PROJECTS -->
+        <h3 class="subsection-heading">Side Projects</h3>
+        <ul class="work-list">
+          <li>
+            <a
+              href="https://chloechodge.wixsite.com/data-project-3"
+              target="_blank"
+              rel="noopener"
+              >Is California water in K-12 schools safe?</a
+            >
+            <p>I visualized over 600 schools for a data-driven investigation into school drinking water     </p>
+          </li>
+                    <li>
+            <a
+              href="https://tictactoe-sooty-iota-85.vercel.app/"
+              target="_blank"
+              rel="noopener"
+              >Tic-Tac-Toe</a
+            >
+            <p>A simple tic-tac-toe game built with React, featuring custom animations</p>
+          </li>
+          <li>
+            <a
+              href="https://mustangnews.net/faculty-research-raises-questions-of-thermal-comfort-co2-levels-in-old-cal-poly-building/"
+              target="_blank"
+              rel="noopener"
+              >How's the air quality in an old university building?</a
+            >
+            <p>Using faculty research data to examine CO2 levels and comfort</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="page-section">
+        <h2 class="section-heading">About Me</h2>
+        <div class="about-block">
+          <img
+            src="images/capital.JPEG"
+            alt="Leila Touati"
+            class="home-picture"
+          />
+          <p class="about-message">
+            After graduating from college in 2026, I had my start with reporting
+            in local newsrooms, while simultaneuously working on passion
+            projects that combine good journalism, technology and a bit of
+            design. 
+
+            From a fun tic-tac-toe game to more complex data-driven
+            projects, I enjoy exploring and learning more about programming,
+            design, and how to effectively combine them in my work. 
+            
+            When I'm not spending late nights coding or chasing my next local story, I love going to spin classes and perfectly baking recipes.
+
+            <!-- I'm Leila, a recent graduate from Cal Poly San Luis Obispo with a .
+            California Polytechnic State Universitty in San Luis Obispo. and I'm obsessed with journalism and code. Originally from
+            the Bay Area, I'm pursuing a Bachelor of Science in Journalism and a
+            minor in Computer Science at California Polytechnic State University
+            in lovely San Luis Obispo. I also work as the Digital Manager of my
+            school's newsroom and the Business Reporting Intern of the local
+            McClatchy paper. When I'm not spending late nights coding or chasing
+            my next story, I love spin classes and baking banana bread. -->
+          </p>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="page-section contact-section">
+        <h2 class="section-heading">Thanks for stopping by!</h2>
+        <p class="section-lead">Let's keep in touch.</p>
+        <ul class="contact-list">
+          <li><a href="mailto:leila@ipsound.net">Email</a></li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/leila-touati/"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </section>
     </main>
 
-    <footer class="footer">© 2025 Leila Touati | All Rights Reserved</footer>
+    <footer class="footer">© 2026 Leila Touati | All Rights Reserved</footer>
+
+    <script>
+      document.querySelectorAll(".dropdown-btn").forEach((btn) => {
+        btn.addEventListener("click", function () {
+          this.classList.toggle("active");
+          this.nextElementSibling.classList.toggle("active");
+        });
+      });
+    </script>
   </body>
 </html>
