@@ -28,8 +28,7 @@ nav.navbar {
   color: #313288;
   font-size: 48px;
   font-weight: 600;
-  margin-bottom: 20px;
-  padding: 20px 40px;
+  padding: 20px 20px;
   text-align: center;
   background-color: #e9d3e0;
   margin-bottom: 40px;
@@ -86,8 +85,8 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
-  padding: 40px;
+  gap: 10px;
+  padding: 30px;
 }
 
 .about-text {
@@ -122,6 +121,18 @@ main {
   border-radius: 20px;
   border: 4px solid #313288;
   flex-shrink: 0;
+}
+
+.home-figure {
+  width: 15rem; 
+  flex-shrink: 0;
+}
+
+.home-figure figcaption {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #888;
+  text-align: center;
 }
 
 .section-title {
@@ -387,7 +398,8 @@ footer.footer {
 /* Keep Work content a readable width */
 #work .section-lead,
 .experience-list,
-.work-list {
+.work-list,
+.education-list{
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -424,6 +436,26 @@ footer.footer {
   color: #666;
 }
 
+.education-list {
+    list-style: none;
+}
+
+.education-list li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.education-list .degree {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.education-list .school {
+  font-size: 17px;
+  color: #666;
+}
+
 /* Selected work and projects: link, then description */
 .work-list {
   list-style: none;
@@ -452,6 +484,11 @@ footer.footer {
   margin-top: 4px;
 }
 
+.degree {
+  white-space: pre-line;
+}
+
+
 /* Optional: role and company side by side on wide screens */
 @media (min-width: 769px) {
   .experience-list li {
@@ -462,6 +499,16 @@ footer.footer {
   }
 
   .experience-list .org {
+    text-align: right;
+  }
+  .education-list li {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 20px;
+  }
+
+  .education-list .school {
     text-align: right;
   }
 }
